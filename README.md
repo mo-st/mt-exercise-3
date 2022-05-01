@@ -1,6 +1,3 @@
-# Readme
-link to repo: https://github.com/mo-st/mt-exercise-3
-
 # Changes made
 I've decided to use a vocab size of 8000 instead of just 5000 because my data vocabulary has about that size and the model generates a lot of `<unk>` tags when training with just 5k, which is no fun. Also training with a total line count of nearly 10k didn't take more than 10 minutes so I thought I could up the vocab without causing any problems. I increased both the number of hidden units per layer and the embeddingsize to 300. As not to change any of the scripts I duplicated each and sufixed them with `_adv.sh`
 # Thoughts on dropout
